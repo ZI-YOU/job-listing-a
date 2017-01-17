@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   resources :jobs do 
     resources :resumes
   end
+
   resources :welcome do
   end
    root 'welcome#index'
@@ -15,7 +16,7 @@ Rails.application.routes.draw do
   			post :hide
   		end
       resources :resumes
-  	end
+  	  end
   end
 
 
