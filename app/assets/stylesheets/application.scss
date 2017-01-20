@@ -74,8 +74,8 @@
 }
 
 .navbar-default {
-    background-color: #80CBC4;//背景颜色
-    border-color: #EFEBE9;//边框色
+    background-color: #A1887F;//背景颜色
+    border-color: #A1887F;//边框色
     margin-bottom: 0;//底部 margin 不撑开距离
 }
 
@@ -86,24 +86,24 @@
 }
 
 .navbar-default .navbar-brand {
-   color: #EF6C00;//字体颜色
+   color: #212121;//字体颜色
    padding: 10px 15px;//上下10px,左右15px
    line-height: 30px;//文字行高
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #FF6F00;//鼠标放置在链接上的文字颜色
+  color: #757575;//鼠标放置在链接上的文字颜色
   background-color: transparent;//鼠标放置在链接上的背景颜色，这里设为透明
 }
 
 .navbar-default .navbar-nav > li > a{
-  color: #EF6C00;
+  color: #212121;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #FF6F00;
+  color: #757575;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
@@ -177,3 +177,4 @@
     border-radius: 3px;//btn圆角
     width: 200px;//这里用指定宽度把btn拉得更长
 }
+
